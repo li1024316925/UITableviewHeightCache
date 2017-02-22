@@ -9,12 +9,19 @@
 /* Begin PBXBuildFile section */
 		2ACEAA261E5BCC1900A0FED6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ACEAA251E5BCC1900A0FED6 /* main.m */; };
 		2ACEAA291E5BCC1900A0FED6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ACEAA281E5BCC1900A0FED6 /* AppDelegate.m */; };
-		2ACEAA2C1E5BCC1900A0FED6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ACEAA2B1E5BCC1900A0FED6 /* ViewController.m */; };
+		2ACEAA2C1E5BCC1900A0FED6 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ACEAA2B1E5BCC1900A0FED6 /* MainViewController.m */; };
 		2ACEAA2F1E5BCC1900A0FED6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2ACEAA2D1E5BCC1900A0FED6 /* Main.storyboard */; };
 		2ACEAA311E5BCC1900A0FED6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2ACEAA301E5BCC1900A0FED6 /* Assets.xcassets */; };
 		2ACEAA341E5BCC1900A0FED6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2ACEAA321E5BCC1900A0FED6 /* LaunchScreen.storyboard */; };
 		2ACEAA3F1E5BCC1900A0FED6 /* UITableviewHeightCacheTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ACEAA3E1E5BCC1900A0FED6 /* UITableviewHeightCacheTests.m */; };
 		2ACEAA4A1E5BCC1900A0FED6 /* UITableviewHeightCacheUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ACEAA491E5BCC1900A0FED6 /* UITableviewHeightCacheUITests.m */; };
+		2ACEAA591E5BD56000A0FED6 /* UITableViewCell+HeightCacheCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ACEAA581E5BD56000A0FED6 /* UITableViewCell+HeightCacheCell.m */; };
+		2ACEAA5C1E5BDDF400A0FED6 /* HeightCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ACEAA5B1E5BDDF400A0FED6 /* HeightCache.m */; };
+		2ACEAA5F1E5BE76F00A0FED6 /* UITableView+HeightCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ACEAA5E1E5BE76F00A0FED6 /* UITableView+HeightCache.m */; };
+		2ACEAA631E5C294100A0FED6 /* TestTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ACEAA611E5C294100A0FED6 /* TestTableViewCell.m */; };
+		2ACEAA641E5C294100A0FED6 /* TestTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2ACEAA621E5C294100A0FED6 /* TestTableViewCell.xib */; };
+		2AFE07741E5D2440000B0BB2 /* doge@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AFE07731E5D2440000B0BB2 /* doge@2x.png */; };
+		2AFE07761E5D25D8000B0BB2 /* phil.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AFE07751E5D25D8000B0BB2 /* phil.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +46,8 @@
 		2ACEAA251E5BCC1900A0FED6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2ACEAA271E5BCC1900A0FED6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2ACEAA281E5BCC1900A0FED6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2ACEAA2A1E5BCC1900A0FED6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2ACEAA2B1E5BCC1900A0FED6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2ACEAA2A1E5BCC1900A0FED6 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		2ACEAA2B1E5BCC1900A0FED6 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		2ACEAA2E1E5BCC1900A0FED6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2ACEAA301E5BCC1900A0FED6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2ACEAA331E5BCC1900A0FED6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +58,17 @@
 		2ACEAA451E5BCC1900A0FED6 /* UITableviewHeightCacheUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITableviewHeightCacheUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2ACEAA491E5BCC1900A0FED6 /* UITableviewHeightCacheUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableviewHeightCacheUITests.m; sourceTree = "<group>"; };
 		2ACEAA4B1E5BCC1900A0FED6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2ACEAA571E5BD56000A0FED6 /* UITableViewCell+HeightCacheCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+HeightCacheCell.h"; sourceTree = "<group>"; };
+		2ACEAA581E5BD56000A0FED6 /* UITableViewCell+HeightCacheCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+HeightCacheCell.m"; sourceTree = "<group>"; };
+		2ACEAA5A1E5BDDF400A0FED6 /* HeightCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeightCache.h; sourceTree = "<group>"; };
+		2ACEAA5B1E5BDDF400A0FED6 /* HeightCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeightCache.m; sourceTree = "<group>"; };
+		2ACEAA5D1E5BE76F00A0FED6 /* UITableView+HeightCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+HeightCache.h"; sourceTree = "<group>"; };
+		2ACEAA5E1E5BE76F00A0FED6 /* UITableView+HeightCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+HeightCache.m"; sourceTree = "<group>"; };
+		2ACEAA601E5C294100A0FED6 /* TestTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTableViewCell.h; sourceTree = "<group>"; };
+		2ACEAA611E5C294100A0FED6 /* TestTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTableViewCell.m; sourceTree = "<group>"; };
+		2ACEAA621E5C294100A0FED6 /* TestTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestTableViewCell.xib; sourceTree = "<group>"; };
+		2AFE07731E5D2440000B0BB2 /* doge@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "doge@2x.png"; sourceTree = "<group>"; };
+		2AFE07751E5D25D8000B0BB2 /* phil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = phil.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +121,14 @@
 			children = (
 				2ACEAA271E5BCC1900A0FED6 /* AppDelegate.h */,
 				2ACEAA281E5BCC1900A0FED6 /* AppDelegate.m */,
-				2ACEAA2A1E5BCC1900A0FED6 /* ViewController.h */,
-				2ACEAA2B1E5BCC1900A0FED6 /* ViewController.m */,
+				2ACEAA2A1E5BCC1900A0FED6 /* MainViewController.h */,
+				2ACEAA2B1E5BCC1900A0FED6 /* MainViewController.m */,
+				2ACEAA601E5C294100A0FED6 /* TestTableViewCell.h */,
+				2ACEAA611E5C294100A0FED6 /* TestTableViewCell.m */,
+				2ACEAA621E5C294100A0FED6 /* TestTableViewCell.xib */,
+				2AFE07731E5D2440000B0BB2 /* doge@2x.png */,
+				2AFE07751E5D25D8000B0BB2 /* phil.png */,
+				2ACEAA651E5C2C5700A0FED6 /* UITableViewCellHeightCache */,
 				2ACEAA2D1E5BCC1900A0FED6 /* Main.storyboard */,
 				2ACEAA301E5BCC1900A0FED6 /* Assets.xcassets */,
 				2ACEAA321E5BCC1900A0FED6 /* LaunchScreen.storyboard */,
@@ -138,6 +162,19 @@
 				2ACEAA4B1E5BCC1900A0FED6 /* Info.plist */,
 			);
 			path = UITableviewHeightCacheUITests;
+			sourceTree = "<group>";
+		};
+		2ACEAA651E5C2C5700A0FED6 /* UITableViewCellHeightCache */ = {
+			isa = PBXGroup;
+			children = (
+				2ACEAA571E5BD56000A0FED6 /* UITableViewCell+HeightCacheCell.h */,
+				2ACEAA581E5BD56000A0FED6 /* UITableViewCell+HeightCacheCell.m */,
+				2ACEAA5A1E5BDDF400A0FED6 /* HeightCache.h */,
+				2ACEAA5B1E5BDDF400A0FED6 /* HeightCache.m */,
+				2ACEAA5D1E5BE76F00A0FED6 /* UITableView+HeightCache.h */,
+				2ACEAA5E1E5BE76F00A0FED6 /* UITableView+HeightCache.m */,
+			);
+			name = UITableViewCellHeightCache;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,8 +287,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				2ACEAA341E5BCC1900A0FED6 /* LaunchScreen.storyboard in Resources */,
+				2ACEAA641E5C294100A0FED6 /* TestTableViewCell.xib in Resources */,
+				2AFE07761E5D25D8000B0BB2 /* phil.png in Resources */,
 				2ACEAA311E5BCC1900A0FED6 /* Assets.xcassets in Resources */,
 				2ACEAA2F1E5BCC1900A0FED6 /* Main.storyboard in Resources */,
+				2AFE07741E5D2440000B0BB2 /* doge@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,9 +316,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2ACEAA2C1E5BCC1900A0FED6 /* ViewController.m in Sources */,
+				2ACEAA631E5C294100A0FED6 /* TestTableViewCell.m in Sources */,
+				2ACEAA2C1E5BCC1900A0FED6 /* MainViewController.m in Sources */,
+				2ACEAA5C1E5BDDF400A0FED6 /* HeightCache.m in Sources */,
 				2ACEAA291E5BCC1900A0FED6 /* AppDelegate.m in Sources */,
 				2ACEAA261E5BCC1900A0FED6 /* main.m in Sources */,
+				2ACEAA591E5BD56000A0FED6 /* UITableViewCell+HeightCacheCell.m in Sources */,
+				2ACEAA5F1E5BE76F00A0FED6 /* UITableView+HeightCache.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +476,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = LLQ.UITableviewHeightCache;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -444,6 +489,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = LLQ.UITableviewHeightCache;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -516,6 +562,7 @@
 				2ACEAA501E5BCC1900A0FED6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2ACEAA511E5BCC1900A0FED6 /* Build configuration list for PBXNativeTarget "UITableviewHeightCacheTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +571,7 @@
 				2ACEAA531E5BCC1900A0FED6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2ACEAA541E5BCC1900A0FED6 /* Build configuration list for PBXNativeTarget "UITableviewHeightCacheUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +580,7 @@
 				2ACEAA561E5BCC1900A0FED6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
